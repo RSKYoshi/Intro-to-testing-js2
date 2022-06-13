@@ -13,6 +13,6 @@ function foo(){
 }
 
 function sayHello(){
-
+    return ""
 }
 
