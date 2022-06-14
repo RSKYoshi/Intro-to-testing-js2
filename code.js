@@ -54,6 +54,14 @@ function sayHello(x){
 //     }
 // }
 
+//isFive problems
+
+function isFive(x){
+    if(Number(x)===5){
+        return true
+    } else return false
+}
+
 
 
 
