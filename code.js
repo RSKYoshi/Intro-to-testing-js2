@@ -12,6 +12,7 @@ function foo(){
     return 2
 }
 
+//before adding more questions
 //sayHello
 // function sayHello(x){
 //     input=x
@@ -22,9 +23,39 @@ function foo(){
 //     } else return "Hello, Jane!"
 // }
 
+// to refactor
 function sayHello(x){
-    return "Hello, " + x + "!";
+    if(typeof x==='undefined'){
+        return "Hello, World!"
+    } else if(x === true){
+        return "Hello, World!"
+    } else if(x === false) {
+        return "Hello, World!"
+    } else if(x=x) {
+        return "Hello, " + x + "!";
+    }
 }
+
+//refactored above code to use switch statements
+//why does this return 'Hello, undefined' ?
+// function sayHello(x){
+//     switch(x) {
+//         case(typeof x ==='undefined'):
+//             return "Hello, World!" ;
+//             break;
+//         case x === true:
+//             return "Hello, World!";
+//             break;
+//         case x === false:
+//             return "Hello, World!" ;
+//             break;
+//         case x=x:
+//             return "Hello, " + x + "!";
+//     }
+// }
+
+
+
 
 
 
