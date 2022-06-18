@@ -36,8 +36,8 @@ function sayHello(x){
     }
 }
 
-//refactored above code to use switch statements
-//why does this return 'Hello, undefined' ?
+// refactored above code to use switch statements
+// why does this return 'Hello, undefined' ?
 // function sayHello(x){
 //     switch(x) {
 //         case(typeof x ==='undefined'):
@@ -57,10 +57,12 @@ function sayHello(x){
 //isFive problems
 
 function isFive(x){
-    if(Number(x)===5){
-        return true
-    } else return false
+    return x === 5 || x==="5";
 }
+
+
+
+
 
 
 

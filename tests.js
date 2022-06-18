@@ -62,7 +62,7 @@ describe("isFive", function(){
         expect(typeof isFive).toBe("function");
     });
     it("should always return a boolean", function() {
-        expect(typeof isFive).toBe("");
+        expect(typeof isFive()).toBe("boolean");
     });
 })
 
