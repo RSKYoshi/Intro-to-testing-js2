@@ -62,9 +62,12 @@ function isFive(x){
 
 //isEven
 function isEven(x){
-    if((x % 2 === 0 || parseInt(x) % 2=== 0) && x!== false) {
-        return true
-    } else return false
+    return (x % 2 === 0 || parseInt(x) % 2 === 0) && x !== false;
+}
+
+//isVowel
+function isVowel(x){
+    return x === "a" || x === "e" || x === "i" || x === "o" || x === "u";
 }
 
 
