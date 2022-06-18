@@ -60,8 +60,12 @@ function isFive(x){
     return x === 5 || x==="5";
 }
 
-
-
+//isEven
+function isEven(x){
+    if((x % 2 === 0 || parseInt(x) % 2=== 0) && x!== false) {
+        return true
+    } else return false
+}
 
 
 

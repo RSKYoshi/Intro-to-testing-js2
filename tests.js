@@ -66,6 +66,14 @@ describe("isFive", function(){
     });
 })
 
+describe("isEven", function() {
+    it("should be a defined function", function() {
+        expect(typeof isEven).toBe("function");
+    });
+    it("should always return a boolean", function() {
+        expect(typeof isEven()).toBe("boolean");
+    });
+})
 
 
 
