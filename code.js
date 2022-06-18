@@ -66,10 +66,19 @@ function isEven(x){
 }
 
 //isVowel
-function isVowel(x){
-    return x === "a" || x === "e" || x === "i" || x === "o" || x === "u";
+// function isVowel(x) {
+//     var input = x
+//     return (input === "a" || input === "A"|| input === "e" || input === "E" || input === "i" || input ==="I" || input === "o" || input === "O" || input === "u" || input === "U");
+// }
+
+function isVowel(x) {
+    return ("aeiouAEIOU".indexOf(x) != -1);
 }
 
+//add
+function add(x,y){
+    return parseInt(x)+parseInt(y)
+}
 
 
 

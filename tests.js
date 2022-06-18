@@ -85,6 +85,14 @@ describe("isVowel", function() {
 
 })
 
+describe("add", function (){
+    it("should be a defined function", function() {
+        expect(typeof add).toBe("function");
+    });
+    it("should sum two numbers, as long as each input is a number or a string containing a number", function() {
+        expect(typeof add).not.toBe(NaN);
+    });
+})
 
 
 
